@@ -21,29 +21,21 @@ is also licensed under GPLv3. The Type1 was modified and converted to
 create the WOFF and TTF versions below. */
 
 @font-face{
-  font-family: "URW Bookman L";
-  src: url("../fonts/urwbookmanl-ligh.woff") format("woff"),
-       url("../fonts/urwbookmanl-ligh.ttf") format("truetype");
+  font-family: sans-serif,"DejaVu Sans serif",Arial,Tahoma,"MS Sans Serif",Calibri;
 }
 
 @font-face{
-  font-family: "URW Bookman L";
-  src: url("../fonts/urwbookmanl-demibold.woff") format("woff"),
-       url("../fonts/urwbookmanl-demibold.ttf") format("truetype");
+  font-family: sans-serif,"DejaVu Sans serif",Arial,Tahoma,"MS Sans Serif",Calibri;
   font-weight: bold;
 }
 
 @font-face{
-  font-family: "URW Bookman L";
-  src: url("../fonts/urwbookmanl-lighital.woff") format("woff"),
-       url("../fonts/urwbookmanl-lighital.ttf") format("truetype");
+  font-family: sans-serif,"DejaVu Sans serif",Arial,Tahoma,"MS Sans Serif",Calibri;
   font-style: italic;
 }
 
 @font-face{
-  font-family: "URW Bookman L";
-  src: url("../fonts/urwbookmanl-demiboldital.woff") format("woff"),
-       url("../fonts/urwbookmanl-demiboldital.ttf") format("truetype");
+  font-family: sans-serif,"DejaVu Sans serif",Arial,Tahoma,"MS Sans Serif",Calibri;
   font-weight: bold;
   font-style: italic;
 }
@@ -54,13 +46,19 @@ html {
 }
 
 body {
-  font-family: "URW Bookman L";
+  font-family: sans-serif,"DejaVu Sans serif",Arial,Tahoma,"MS Sans Serif",Calibri;
   height: 100%;
   margin: 0;
   padding: 0;
   border: 0;
   background-color: #134B38;
   font-size: 12pt;
+}
+
+h1 {
+  text-align:center;
+  color: white;
+  text-shadow: 3px 3px 2px black;
 }
 
 :-webkit-full-screen { /* WebKit "letterboxes" in fullscreen otherwise */
@@ -137,8 +135,9 @@ input {
   flex: 16 0 0%;
   margin: 2px;
   margin-right: 0px;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-top:6px;
+  padding-left: 6px;
+  padding-right: 6px;
   overflow-y: scroll;
   white-space: pre-wrap;
 }
@@ -192,7 +191,7 @@ input {
   width: 86%;
 }
 button, select{
-  font-family: "URW Bookman L";
+  font-family: sans-serif,"DejaVu Sans serif",Arial,Tahoma,"MS Sans Serif",Calibri;
 /*  font-size: 100%;*/
   background-color: #3A8C71;
   color: white;
