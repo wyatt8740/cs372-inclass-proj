@@ -20,6 +20,28 @@ documentation included in the software indicates that the Type1 font
 is also licensed under GPLv3. The Type1 was modified and converted to
 create the WOFF and TTF versions below. */
 
+.uploadedItemContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.output {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: #0E260E;
+  color: white;
+  text-shadow: 3px 3px 2px black;
+  flex-direction: column;
+  flex: 16 0 0%;
+  margin: 2px;
+  margin-right: 0px;
+  padding-top:6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  overflow-y: scroll;
+/* white-space: pre-wrap;*/
+}
+
 @font-face{
   font-family: sans-serif,"DejaVu Sans serif",Arial,Tahoma,"MS Sans Serif",Calibri;
 }
@@ -126,20 +148,6 @@ input {
   /*  padding-left: 2px;*/
   flex: 1 0 0%;
   margin-left: 0px;
-}
-.output {
-  background-color: #0E260E;
-  color: white;
-  text-shadow: 3px 3px 2px black;
-  flex-direction: column;
-  flex: 16 0 0%;
-  margin: 2px;
-  margin-right: 0px;
-  padding-top:6px;
-  padding-left: 6px;
-  padding-right: 6px;
-  overflow-y: scroll;
-  white-space: pre-wrap;
 }
 .botBtns {
   background: inherit;
